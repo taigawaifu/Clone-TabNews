@@ -14,11 +14,17 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "test":"jest",
+    "test watch":"jest --watch"
+    
   },
   "dependencies": {
     "next": "^16.1.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
   }
 }
