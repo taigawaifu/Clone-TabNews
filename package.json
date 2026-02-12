@@ -7,19 +7,19 @@
     "url": "https://github.com/taigawaifu/Clone-TabNews/issues"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/taigawaifu/Clone-TabNews.git"
+    "type": "git"
+
   },
   "license": "MIT",
   "author": "",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "test":"jest",
-    "test watch":"jest --watch"
-    
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
+    "curl": "^0.1.4",
     "next": "^16.1.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"

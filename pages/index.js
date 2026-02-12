@@ -1,6 +1,6 @@
 function Home(){
     return <h1>Belbeth</h1>
-
+    
 }
 
 
